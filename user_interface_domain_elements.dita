@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="user_interface_domain_elements">
+    <title>User Interface Domain Elements</title>
+    <prolog>
+        <author type="creator">Deepak Bhatia</author>
+        <critdates>
+            <created date="2024-03-30"/>
+            <!--Deepak Bhatia-->
+            <revised modified="2024-03-31"/>
+        </critdates>
+    </prolog>
+    <conbody>
+        <p>The elements in the user interface domain each have a specific semantic purpose.</p>
+        <dl id="dl_vnk_5vm_x1c">
+            <dlentry>
+                <dt>uicontrol</dt>
+                <dd>Press the <uicontrol>OK</uicontrol> button.</dd>
+            </dlentry>
+            <dlentry>
+                <dt>wintitle</dt>
+                <dd>&lt;step>&lt;cmd>Click
+                    &lt;uicontrol>Configure&lt;/uicontrol>.&lt;/cmd>&lt;stepresult>The
+                        <wintitle>Configuration Options</wintitle> window opens with your last set
+                    of selections highlighted.&lt;/stepresult>&lt;/step></dd>
+            </dlentry>
+            <dlentry>
+                <dt>menucascade</dt>
+                <dd><menucascade>
+                        <uicontrol>Start</uicontrol>
+                    </menucascade><uicontrol>Programs</uicontrol><uicontrol>Accessories</uicontrol><uicontrol>Notepad</uicontrol></dd>
+            </dlentry>
+            <dlentry>
+                <dt>shortcut</dt>
+                <dd>&lt;menucascade>&lt;uicontrol>Start&lt;/uicontrol>&lt;uicontrol>&lt;shortcut>P&lt;/shortcut>Programs&lt;/uicontrol>&lt;/menucascade></dd>
+            </dlentry>
+            <dlentry>
+                <dt>screen</dt>
+                <dd>
+                    <pre id="pre_ecs_wbn_x1c">&lt;p>Type "edit" after the command line prompt and press Enter.  The following
+editing interface will be displayed.&lt;/p><b>
+&lt;screen></b>
+   File  Edit  Search  View  Options  Help
++--------------------------------- UNTITLED1 ----------------------------------+
+¦                                                                              ¦
+¦                                                                              ¦
+¦                                                                              ¦
+¦                                                                              ¦
+¦  Line:1    Col:1  F1=Help                                                    ¦
++------------------------------------------------------------------------------+
+<b>&lt;/screen></b></pre>
+                </dd>
+            </dlentry>
+        </dl>
+    </conbody>
+</concept>

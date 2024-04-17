@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="utilities_domain_elements">
+    <title>Utilities domain elements</title>
+    <prolog>
+        <author type="creator">Deepak Bhatia</author>
+        <critdates>
+            <created date="2024-03-30"/>
+        </critdates>
+    </prolog>
+    <conbody>
+        <p>The elements in the utilities domain each have a specific purpose in defining image map
+            properties.</p>
+        <note id="note_ljs_vlm_x1c" type="important">Use &lt;dl> to describe each of the following
+            element and provide an example.</note>
+        <dl id="dl_jp2_kwm_x1c">
+            <dlentry>
+                <dt>imagemap</dt>
+                <dd><b>&lt;imagemap></b>  &lt;image href="imagemapworld.jpg">    &lt;alt>Map of the
+                    world showing 5 areas&lt;/alt>  &lt;/image>
+                    &lt;area>&lt;shape>rect&lt;/shape>&lt;coords>2,0,53,59&lt;/coords>   &lt;xref
+                    href="d1-s1.dita">Section 1 alternative text&lt;/xref>  &lt;/area>
+                    &lt;area>&lt;shape>rect&lt;/shape>&lt;coords>54,1,117,60&lt;/coords>   &lt;xref
+                    href="d1-s2.dita">&lt;!-- Pull title from d1-s2.dita -->&lt;/xref>  &lt;/area>
+                    &lt;area>&lt;shape>rect&lt;/shape>&lt;coords>54,62,114,116&lt;/coords>
+                    &lt;xref href="#inline" type="topic">Alternative text for this
+                    rectangle&lt;/xref>  &lt;/area>
+                    &lt;area>&lt;shape>circle&lt;/shape>&lt;coords>120,154,29&lt;/coords>   &lt;xref
+                    format="html" href="test.html">Link to a test html file&lt;/xref>  &lt;/area>
+                    &lt;area>&lt;shape>poly&lt;/shape>
+                    &lt;coords>246,39,200,35,173,52,177,86,215,90,245,84,254,65&lt;/coords>
+                    &lt;xref format="pdf" href="test.pdf">Link to a test PDF file&lt;/xref>
+                    &lt;/area> <b>&lt;/imagemap></b></dd>
+            </dlentry>
+            <dlentry>
+                <dt>area</dt>
+                <dd><b>&lt;area></b>&lt;shape>rect&lt;/shape>&lt;coords>54,1,117,60&lt;/coords>&lt;xref
+                        href="d1-s2.dita">&lt;/xref><b>&lt;/area></b></dd>
+            </dlentry>
+            <dlentry>
+                <dt>coords</dt>
+                <dd>&lt;area>&lt;shape>rect&lt;/shape><b>&lt;coords></b>54,1,117,60<b>&lt;/coords></b>&lt;xref
+                    href="d1-s2.dita">&lt;/xref>&lt;/area></dd>
+            </dlentry>
+            <dlentry>
+                <dt>shape</dt>
+                <dd>&lt;area><b>&lt;shape></b>rect<b>&lt;/shape></b>&lt;coords>54,1,117,60&lt;/coords>&lt;xref
+                    href="d1-s2.dita">&lt;/xref>&lt;/area></dd>
+            </dlentry>
+        </dl>
+    </conbody>
+</concept>

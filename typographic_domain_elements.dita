@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="typographic_domain_elements">
+    <title>Typographic Domain Elements</title>
+    <prolog>
+        <author type="creator">Deepak Bhatia</author>
+        <critdates>
+            <created date="2024-03-31"/>
+        </critdates>
+    </prolog>
+    <conbody>
+        <p>The typographic domain elements each have a specific styling purpose</p>
+        <dl id="dl_ulc_lvt_x1c">
+            <dlentry>
+                <dt>b</dt>
+                <dd>bold (strong)</dd>
+            </dlentry>
+            <dlentry>
+                <dt>i</dt>
+                <dd>italic (emphasis)</dd>
+            </dlentry>
+            <dlentry>
+                <dt>u</dt>
+                <dd>underlines</dd>
+            </dlentry>
+            <dlentry>
+                <dt>tt</dt>
+                <dd>teletype (typewriter)</dd>
+            </dlentry>
+            <dlentry>
+                <dt>sup</dt>
+                <dd>superscript</dd>
+            </dlentry>
+            <dlentry>
+                <dt>sub</dt>
+                <dd>subscript</dd>
+            </dlentry>
+        </dl>
+    </conbody>
+</concept>

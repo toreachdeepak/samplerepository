@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="introduction_to_dita">
+    <title>Introduction To <ph keyref="dita_val"/></title>
+    <prolog>
+        <author type="creator">Deepak Bhatia</author>
+        <critdates>
+            <created date="2024-03-30"/>
+            <!--Deepak Bhatia-->
+            <revised modified="2024-03-31"/>
+        </critdates>
+    </prolog>
+    <conbody>
+        <p>The Darwin Information Typing Architecture (<ph keyref="dita_val"/>) is an XML-based
+            architecture for authoring, producing, and delivering topic-oriented, information-typed
+            content that can be reused and single-sourced in a variety of ways. While <ph
+                keyref="dita_val"/> historically has been driven by the requirements of large-scale
+            technical documentation authoring, management, and delivery, it is a standard that is
+            applicable to any kind of publication or information that might be presented to readers,
+            including interactive training and educational materials, standards, reports, business
+            documents, trade books, travel and nature guides, and more. </p>
+        <p><ph keyref="dita_val"/> is designed for creating new document types and describing new
+            information domains based on existing types and domains. The process for creating new
+            types and domains is called specialization. Specialization enables the creation of
+            specific, targeted XML grammars that can still use tools and design rules that were
+            developed for more general types and domains; this is similar to how classes in an
+            object-oriented system can inherit the methods of ancestor classes.</p>
+        <p>Because <ph keyref="dita_val"/>  topics are conforming XML documents, they can be readily
+            viewed, edited, and validated using standard XML tools, although realizing the full
+            potential of <ph keyref="dita_val"/>  requires using <ph keyref="dita_val"/>-aware
+            tools.</p>
+    </conbody>
+    <related-links>
+        <link
+            href="https://www.oxygenxml.com/dita/1.3/specs/archSpec/base/introduction-to-dita.html"
+            format="html" scope="external"/>
+    </related-links>
+</concept>

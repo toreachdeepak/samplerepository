@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="utilities_domain_elements">
+    <title>Utilities domain elements</title>
+    <shortdesc>The elements in the utilities domain each have a specific purpose in defining image
+        map properties.</shortdesc>
+    <prolog>
+        <author type="creator">Deepak Bhatia</author>
+        <critdates>
+            <created date="2024-03-30"/>
+            <!--Deepak Bhatia-->
+            <revised modified="2024-03-31"/>
+            <!--Deepak Bhatia-->
+            <revised modified="2024-04-03"/>
+            <!--Deepak Bhatia-->
+            <revised modified="2024-04-04"/>
+        </critdates>
+    </prolog>
+    <conbody>
+        <dl id="dl_jp2_kwm_x1c">
+            <dlentry>
+                <dt>imagemap</dt>
+                <dd>Client side image map</dd>
+            </dlentry>
+            <dlentry>
+                <dt>area</dt>
+                <dd>Hotspot area within the map</dd>
+            </dlentry>
+            <dlentry>
+                <dt>coords</dt>
+                <dd>co-ordinates of the hotspot area within a map</dd>
+            </dlentry>
+            <dlentry>
+                <dt>shape</dt>
+                <dd>shape of hotspot area within the map</dd>
+            </dlentry>
+        </dl>
+        <imagemap id="imagemap_zcd_gcm_y1c">
+            <image href="Picture1.png" id="image_add_gcm_y1c"/>
+            <area>
+                <shape>rect</shape>
+                <coords>117, 32, 245, 162</coords>
+                <xref href="introduction_to_dita.dita" format="dita">Click here to learn more about
+                    DITA.</xref>
+            </area>
+            <area>
+                <shape>rect</shape>
+                <coords>256, 33, 383, 160</coords>
+                <xref href="topic_elements.dita" format="dita">Click here to learn more about the
+                    Topic elements.</xref>
+            </area>
+            <area>
+                <shape>rect</shape>
+                <coords>117, 172, 245, 300</coords>
+                <xref
+                    href="https://blog.oxygenxml.com/topics/collaboration-for-documenting-software.html"
+                    format="html" scope="external">Click here to learn more about Dita MAP
+                    elements.</xref>
+            </area>
+            <area>
+                <shape>rect</shape>
+                <coords>257, 173, 383, 300</coords>
+                <xref href="prolog_elements.dita" format="dita">Click here to get more info about
+                    Prolog element.</xref>
+            </area>
+        </imagemap>
+    </conbody>
+</concept>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="untitled8">
+    <title>Software domain elements</title>
+    <prolog>
+        <author type="contributor">Deepak Bhatia</author>
+        <critdates>
+            <!--Deepak Bhatia-->
+            <revised modified="2024-03-30"/>
+            <!--Deepak Bhatia-->
+            <revised modified="2024-03-31"/>
+            <!--Deepak Bhatia-->
+            <revised modified="2024-04-01"/>
+            <!--Deepak Bhatia-->
+            <revised modified="2024-04-04"/>
+        </critdates>
+    </prolog>
+    <conbody>
+        <p>The elements in the software domain each have a specific semantic purpose.</p>
+        <dl id="dl_afd_2wm_x1c">
+            <dlentry>
+                <dt>msgph</dt>
+                <dd>
+                    <p>The example of msgph is as given below.</p><p>A server log entry of <msgnum>I:0</msgnum> is equivalent to the
+                    text message, <msgph>informational: successful</msgph>.</p></dd>
+            </dlentry>
+            <dlentry>
+                <dt>msgblock</dt>
+                <dd>
+                    <p>The example of msgblock is as given below</p><p>A sequence of failed password attempts generates the following
+                    characteristic message stream:</p>
+                    <msgblock>
+                        I:0
+                        S:3
+                        I:1
+                        S:3
+                        I:1
+                        S:4
+                        S:99 (lockup)
+                    </msgblock></dd>
+            </dlentry>
+            <dlentry>
+                <dt>msgnum</dt>
+                <dd>
+                    <p>The example of msgnum is as given below</p>
+                    <p>A server log entry of <msgnum>I:0</msgnum> is equivalent to the text message,
+                            <msgph>informational: successful</msgph>.</p>
+                </dd>
+            </dlentry>
+            <dlentry>
+                <dt>cmdname</dt>
+                <dd>
+                    <p>The example of cmdname is as given below.</p><p>Use the <cmdname>rm</cmdname> command when you wish to remove something forever.</p></dd>
+            </dlentry>
+            <dlentry>
+                <dt>varname</dt>
+                <dd><p>The example varname is as given below.</p><filepath>
+                        <varname>install-dir</varname>\projects\working\<varname>project-dir</varname>
+                            \source\<varname>filename</varname>.java </filepath></dd>
+            </dlentry>
+            <dlentry>
+                <dt>filepath</dt>
+                <dd>
+                    <p>The example of filepath is as given below.</p><p>Uncompress the <filepath>gbbrsh.gz</filepath> file to the 
+                    <filepath>/usr</filepath> directory. Ensure that the
+                    <filepath>/usr/tools/data.cfg</filepath> path is listed in
+                    the execution path system variable.</p></dd>
+            </dlentry>
+            <dlentry>
+                <dt>userinput</dt>
+                <dd>
+                    <p>The example of userinput is as given below.</p><p>After you type <userinput>mealplan dinner</userinput>, the meal planning program
+                    will print a <systemoutput>For what day?</systemoutput> message.
+                    Reply by typing the day of the week for which you want a meal plan,
+                    for example, <userinput>Thursday</userinput>.</p></dd>
+            </dlentry>
+            <dlentry>
+                <dt>systemoutput</dt>
+                <dd>
+                    <p>The example of systemoutput is as given below.</p><p>After you type <userinput>mealplan dinner</userinput>, the meal planning program
+                    will print a <systemoutput>For what day?</systemoutput> message.
+                    Reply by typing the day of the week for which you want a meal plan,
+                    for example, <userinput>Thursday</userinput>.</p></dd>
+                <dd/>
+            </dlentry>
+        </dl>
+    </conbody>
+</concept>

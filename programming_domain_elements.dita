@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="programming_domain_elements">
+    <title>Programming Domain Elements</title>
+    <prolog>
+        <author type="creator">Deepak Bhatia</author>
+        <critdates>
+            <created date="2024-03-30"/>
+            <!--Deepak Bhatia-->
+            <revised modified="2024-03-31"/>
+            <!--Deepak Bhatia-->
+            <revised modified="2024-04-01"/>
+            <!--Deepak Bhatia-->
+            <revised modified="2024-04-03"/>
+            <!--Deepak Bhatia-->
+            <revised modified="2024-04-04"/>
+        </critdates>
+    </prolog>
+    <conbody>
+        <p>The elements in the programming domain each have a specific semantic purpose.</p>
+        <dl id="dl_ivw_1qm_x1c">
+            <dlentry>
+                <dt>apiname</dt>
+                <dd>Use the <apiname>document.write</apiname> method to create text output in the
+                    dynamically constructed view.</dd>
+            </dlentry>
+            <dlentry>
+                <dt>codeblock</dt>
+                <dd>
+                    <codeblock id="codeblock_arb_5vt_x1c">/* a long sample program */ Do forever Say "Hello, World" End</codeblock>
+                </dd>
+            </dlentry>
+            <dlentry>
+                <dt>codeph</dt>
+                <dd>The second line of the sample program code, <codeph>Do forever</codeph>,
+                    represents the start of a loop construct.</dd>
+            </dlentry>
+            <dlentry>
+                <dt>option</dt>
+                <dd>something <option>/modifier</option></dd>
+            </dlentry>
+            <dlentry>
+                <dt>paramname</dt>
+                <dd>Use the <parmname>/env</parmname> parameter of the
+                    <cmdname>config</cmdname> command to update the field value</dd>
+            </dlentry>
+            <dlentry>
+                <dt>parml</dt>
+                <dd>This code example is a basic method signature:
+                    <codeblock>returnType methodName(pList1, pList2) {</codeblock>
+                    where
+                    <parml>
+                        <plentry>
+                            <pt>pList1</pt>
+                            <pd>is the first variable declaration passed to methodName</pd>
+                        </plentry>
+                        <plentry>
+                            <pt>pList2</pt>
+                            <pd>is the second variable declaration passed to methodName</pd>
+                        </plentry>
+                    </parml>
+                </dd>
+            </dlentry>
+            <dlentry>
+                <dt>plentry</dt>
+                <dd>This code example is a basic method signature:
+                    <codeblock id="codeblock_dsr_1zz_x1c">returnType methodName(pList1, pList2) {</codeblock>
+                    where <parml id="parml_esr_1zz_x1c">
+                        <plentry>
+                            <pt>pList1</pt>
+                            <pd>is the first variable declaration passed to methodName</pd>
+                        </plentry>
+                        <plentry>
+                            <pt>pList2</pt>
+                            <pd>is the second variable declaration passed to methodName</pd>
+                        </plentry>
+                    </parml></dd>
+            </dlentry>
+            <dlentry>
+                <dt>pt</dt>
+                <dd>This code example is a basic method signature:
+                    <codeblock id="codeblock_vkh_bzz_x1c">returnType methodName(pList1, pList2) {</codeblock>
+                    where <parml id="parml_wkh_bzz_x1c">
+                        <plentry>
+                            <pt>pList1</pt>
+                            <pd>is the first variable declaration passed to methodName</pd>
+                        </plentry>
+                        <plentry>
+                            <pt>pList2</pt>
+                            <pd>is the second variable declaration passed to methodName</pd>
+                        </plentry>
+                    </parml></dd>
+            </dlentry>
+            <dlentry>
+                <dt>pd</dt>
+                <dd>This code example is a basic method signature:
+                    <codeblock id="codeblock_dhh_czz_x1c">returnType methodName(pList1, pList2) {</codeblock>
+                    where <parml id="parml_ehh_czz_x1c">
+                        <plentry>
+                            <pt>pList1</pt>
+                            <pd>is the first variable declaration passed to methodName</pd>
+                        </plentry>
+                        <plentry>
+                            <pt>pList2</pt>
+                            <pd>is the second variable declaration passed to methodName</pd>
+                        </plentry>
+                    </parml></dd>
+            </dlentry>
+            <dlentry>
+                <dt>synph</dt>
+                <dd>The example of synph is as given below here <p><synph><kwd>format</kwd>
+                            <var>volumename</var></synph>
+                    </p></dd>
+            </dlentry>
+            <dlentry>
+                <dt>syntaxdiagram</dt>
+                <dd>The example of syntaxdiagram is as given below
+                    <syntaxdiagram>
+                        <title>CopyFile</title>
+                        <groupseq>
+                            <kwd>COPYF</kwd>
+                        </groupseq>
+                        <groupcomp>
+                            <var>input-filename</var>
+                            <kwd>*INFILE</kwd>
+                        </groupcomp>
+                        <groupseq>
+                            <var>output-filename</var>
+                            <kwd>*OUTFILE</kwd>
+                        </groupseq>
+                        <groupchoice>
+                            <var>input-filename</var>
+                            <kwd>*INFILE</kwd>
+                        </groupchoice>
+                        <groupchoice>
+                            <var>output-filename</var>
+                            <kwd>*OUTFILE</kwd>
+                        </groupchoice>
+                    </syntaxdiagram></dd>
+            </dlentry>
+            <dlentry>
+                <dt>groupseq</dt>
+                <dd>The example of groupseq is as given below
+                    <syntaxdiagram>
+                    <title>CopyFile</title>
+                    <groupseq>
+                        <kwd>COPYF</kwd>
+                    </groupseq>
+                    <groupcomp>
+                        <var>input-filename</var>
+                        <kwd>*INFILE</kwd>
+                    </groupcomp>
+                    <groupseq>
+                        <var>output-filename</var>
+                        <kwd>*OUTFILE</kwd>
+                    </groupseq>
+                    <groupchoice>
+                        <var>input-filename</var>
+                        <kwd>*INFILE</kwd>
+                    </groupchoice>
+                    <groupchoice>
+                        <var>output-filename</var>
+                        <kwd>*OUTFILE</kwd>
+                    </groupchoice>
+                </syntaxdiagram></dd>
+            </dlentry>
+            <dlentry>
+                <dt>groupchoice</dt>
+                <dd>The example of groupchoice is as given below
+                    <syntaxdiagram>
+                    <title>CopyFile</title>
+                    <groupseq>
+                        <kwd>COPYF</kwd>
+                    </groupseq>
+                    <groupcomp>
+                        <var>input-filename</var>
+                        <kwd>*INFILE</kwd>
+                    </groupcomp>
+                    <groupseq>
+                        <var>output-filename</var>
+                        <kwd>*OUTFILE</kwd>
+                    </groupseq>
+                    <groupchoice>
+                        <var>input-filename</var>
+                        <kwd>*INFILE</kwd>
+                    </groupchoice>
+                    <groupchoice>
+                        <var>output-filename</var>
+                        <kwd>*OUTFILE</kwd>
+                    </groupchoice>
+                </syntaxdiagram></dd>
+            </dlentry>
+            <dlentry>
+                <dt>groupcomp</dt>
+                <dd>The example of groupcomp is as given below
+                    <syntaxdiagram>
+                    <title>CopyFile</title>
+                    <groupseq>
+                        <kwd>COPYF</kwd>
+                    </groupseq>
+                    <groupcomp>
+                        <var>input-filename</var>
+                        <kwd>*INFILE</kwd>
+                    </groupcomp>
+                    <groupseq>
+                        <var>output-filename</var>
+                        <kwd>*OUTFILE</kwd>
+                    </groupseq>
+                    <groupchoice>
+                        <var>input-filename</var>
+                        <kwd>*INFILE</kwd>
+                    </groupchoice>
+                    <groupchoice>
+                        <var>output-filename</var>
+                        <kwd>*OUTFILE</kwd>
+                    </groupchoice>
+                </syntaxdiagram></dd>
+            </dlentry>
+            <dlentry>
+                <dt>fragment</dt>
+                <dd>The example of fragment is as given below
+                    <syntaxdiagram frame="none">
+                        <title>CopyFile</title>
+                        <groupseq><kwd>COPYF</kwd></groupseq>
+                        <groupcomp><var>input-filename</var><kwd>*INFILE</kwd></groupcomp>
+                        <groupseq><var>output-filename</var><kwd>*OUTFILE</kwd></groupseq>
+                        <groupchoice><var>input-filename</var><kwd>*INFILE</kwd></groupchoice>
+                        <groupchoice><var>output-filename</var><kwd>*OUTFILE</kwd></groupchoice>
+                        <fragment>
+                            <groupchoice><kwd>*OVERLAP</kwd><kwd>*Prompt</kwd></groupchoice>
+                        </fragment>
+                    </syntaxdiagram>></dd>
+            </dlentry>
+            <dlentry>
+                <dt>fragref</dt>
+                <dd>The example of fragref is as given below
+                    <syntaxdiagram frame="none">
+                        <title>CopyFile</title>
+                        <groupseq><kwd>COPYF</kwd></groupseq>
+                        <groupcomp><var>input-filename</var><kwd>*INFILE</kwd></groupcomp>
+                        <groupseq><var>output-filename</var><kwd>*OUTFILE</kwd></groupseq>
+                        <fragref href="#programming_domain_elements/overlay"></fragref>
+                        <groupchoice><var>input-filename</var><kwd>*INFILE</kwd></groupchoice>
+                        <groupchoice><var>output-filename</var><kwd>*OUTFILE</kwd></groupchoice>
+                        <fragment id="overlay">
+                            <title>Overlay</title>
+                            <groupchoice><kwd>*OVERLAP</kwd><kwd>*Prompt</kwd></groupchoice>
+                        </fragment>
+                    </syntaxdiagram></dd>
+            </dlentry>
+            <dlentry>
+                <dt>synblk</dt>
+                <dd>
+                    <syntaxdiagram>
+                        <synblk><groupseq><kwd>this</kwd><sep>-</sep><kwd>is</kwd><sep>-</sep><kwd>a</kwd>
+                            <sep>-</sep><var>test</var></groupseq></synblk>
+                    </syntaxdiagram>
+                </dd>
+            </dlentry>
+            <dlentry>
+                <dt>synnote</dt>
+                <dd>
+                    <syntaxdiagram id="syntaxdiagram0"><groupcomp><var>one</var><var>two</var><var>three</var></groupcomp>
+                    <synnote id="mysyn">My first syntax note.</synnote></syntaxdiagram>
+                </dd>
+            </dlentry>
+            <dlentry>
+                <dt>synnoteref</dt>
+                <dd><syntaxdiagram><synnoteref href="programming_domain_elements.dita"></synnoteref></syntaxdiagram></dd>
+            </dlentry>
+            <dlentry>
+                <dt>kwd</dt>
+                <dd><syntaxdiagram>
+                    <title>CopyFile</title>
+                    <groupseq>
+                        <kwd>COPYF</kwd>
+                    </groupseq>
+                    <groupcomp>
+                        <var>input-filename</var>
+                        <kwd>*INFILE</kwd>
+                    </groupcomp>
+                    <groupseq>
+                        <var>output-filename</var>
+                        <kwd>*OUTFILE</kwd>
+                    </groupseq>
+                    <groupchoice>
+                        <var>input-filename</var>
+                        <kwd>*INFILE</kwd>
+                    </groupchoice>
+                    <groupchoice>
+                        <var>output-filename</var>
+                        <kwd>*OUTFILE</kwd>
+                    </groupchoice>
+                </syntaxdiagram></dd>
+            </dlentry>
+            <dlentry>
+                <dt>var</dt>
+                <dd><syntaxdiagram>
+                    <title>CopyFile</title>
+                    <groupseq>
+                        <kwd>COPYF</kwd>
+                    </groupseq>
+                    <groupcomp>
+                        <var>input-filename</var>
+                        <kwd>*INFILE</kwd>
+                    </groupcomp>
+                    <groupseq>
+                        <var>output-filename</var>
+                        <kwd>*OUTFILE</kwd>
+                    </groupseq>
+                    <groupchoice>
+                        <var>input-filename</var>
+                        <kwd>*INFILE</kwd>
+                    </groupchoice>
+                    <groupchoice>
+                        <var>output-filename</var>
+                        <kwd>*OUTFILE</kwd>
+                    </groupchoice>
+                </syntaxdiagram></dd>
+            </dlentry>
+            <dlentry>
+                <dt>oper</dt>
+                <dd><syntaxdiagram>
+                    <title>Adding</title>
+                    <groupseq><kwd>1</kwd><oper>+</oper><var>two</var>
+                        <delim>=</delim><kwd>something</kwd>
+                    </groupseq>
+                </syntaxdiagram></dd>
+            </dlentry>
+            <dlentry>
+                <dt>delim</dt>
+                <dd><syntaxdiagram>
+                    <title>Adding</title>
+                    <groupseq><kwd>1</kwd><oper>+</oper><var>two</var>
+                        <delim>=</delim><kwd>something</kwd>
+                    </groupseq>
+                </syntaxdiagram></dd>
+            </dlentry>
+            <dlentry>
+                <dt>sep</dt>
+                <dd><syntaxdiagram>
+                    <title>Adding</title>
+                    <groupseq><kwd>1</kwd><oper>+</oper><sep>(</sep><var>two</var><sep>)</sep>
+                        <delim>=</delim><kwd>something</kwd></groupseq>
+                </syntaxdiagram></dd>
+            </dlentry>
+            <dlentry>
+                <dt>repsep</dt>
+                <dd><syntaxdiagram>
+                    <groupchoice>
+                        <repsep>,</repsep>
+                        <kwd>This</kwd>
+                        <kwd>That</kwd>
+                        <kwd>The other</kwd>
+                    </groupchoice>
+                </syntaxdiagram>
+                </dd>
+            </dlentry>
+        </dl>
+    </conbody>
+</concept>
